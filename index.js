@@ -44,9 +44,10 @@ function updateSlider () {
 
 nextButton.addEventListener('click', () => {
     if(currentSlide < images.length -1) {
-        currentSlide++;
 
         nameTeam.textContent = textName[currentSlide];
+
+        currentSlide++;
 
         updateSlider();
     }
@@ -54,10 +55,10 @@ nextButton.addEventListener('click', () => {
 
 prevButton.addEventListener('click', () => {
     if(currentSlide > 0) {
-       
-        currentSlide--;
 
-        nameTeam.textContent = textName[currentSlide];
+       nameTeam.textContent = textName[currentSlide];
+
+        currentSlide--;
 
         updateSlider();
     }
@@ -65,9 +66,10 @@ prevButton.addEventListener('click', () => {
 
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
-        currentSlide = index;
 
         nameTeam.textContent = textName[currentSlide];
+
+        currentSlide = index;
 
         updateSlider();
     });
