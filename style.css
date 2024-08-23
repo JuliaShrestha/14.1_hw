@@ -1,0 +1,82 @@
+.slider{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.slider__content{
+    display: flex;
+    gap: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    height: 330px;
+}
+
+.slider__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 320px;
+    height: 330px;
+    border-radius: 10px 0 0 10px;
+}
+
+a{
+    color: rgb(46, 160, 237);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    margin: 5px 0 0 0;
+    color: rgb(239, 27, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    font-weight: 700;
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+    margin: 25px 0 0 0;
+}
+
+.partner{
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.nav-btn{
+    border-radius: 50%;
+    width: 85px;
+    height: 40px;
+    background-color: rgb(72, 128, 232);
+    border: 0;
+    cursor: pointer;
+}
+
+svg{
+    margin-top: 5px;
+    color: white;
+}
+
+.dots{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(159, 192, 253);
+    cursor: pointer;
+}
